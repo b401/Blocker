@@ -4,12 +4,15 @@ This project creates zone entries for each blocked domain on various blocklists.
 They get redirected to either 127.0.0.1/::1 (default) or a sinkhole of your choosing.
 
 To manually block a certain domain just extend the blocklist entry:
-    blocklist:
+```yaml
+blocklist:
       - heise.de
+```
 For onlinelists just extend the onlinelists entry:
-    onlinelists:
+```yaml
+onlinelists:
       - https://youronlinelist.com/hosts.txt
-
+```
 
 ## Configure
 1. Install libcurl-dependencies (libssl-dev / pkg-config)
