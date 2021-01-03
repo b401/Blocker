@@ -6,6 +6,10 @@ They get redirected to either 127.0.0.1/::1 (default) or a sinkhole of your choo
 To manually block a certain domain just extend the blocklist entry:
     blocklist:
       - heise.de
+For onlinelists just extend the onlinelists entry:
+    onlinelists:
+      - https://youronlinelist.com/hosts.txt
+
 
 ## Configure
 1. Install libcurl-dependencies (libssl-dev / pkg-config)
