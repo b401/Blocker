@@ -6,7 +6,7 @@ sinkhole6: ::1
 reset: true
 
 #blocklist:
-#  - heise.com
+#  - heise.de
 
 onlinelists:
   - https://raw.githubusercontent.com/davidonzo/Threat-Intel/master/lists/latestdomains.txt
