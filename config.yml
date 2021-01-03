@@ -1,0 +1,21 @@
+---
+named_path: /etc/bind/named.conf.blocklist
+path: /etc/bind/blocker/
+sinkhole: 127.0.0.1
+sinkhole6: ::1
+reset: true
+
+#blocklist:
+#  - heise.com
+
+onlinelists:
+  - https://raw.githubusercontent.com/davidonzo/Threat-Intel/master/lists/latestdomains.txt
+  - https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
+  - https://v.firebog.net/hosts/static/w3kbl.txt
+  - https://v.firebog.net/hosts/Admiral.txt
+  - https://adaway.org/hosts.txt
+  - https://orca.pet/notonmyshift/hosts.txt 
+  - https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt 
+  - https://gitlab.com/curben/urlhaus-filter/-/raw/master/urlhaus-filter-hosts.txt
+  - https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt 
+  - https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/newhosts-final.hosts 
